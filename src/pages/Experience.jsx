@@ -4,8 +4,8 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import SchoolIcon from "@material-ui/icons/School";
-import WorkIcon from "@material-ui/icons/Work";
+
+
 
 function Experience() {
   return (
@@ -15,7 +15,7 @@ function Experience() {
           className="vertical-timeline-element--education"
           date="2003 - 2013"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
-          icon={<SchoolIcon />}
+         
         >
           <h3 className="vertical-timeline-element-title">
             Saraswati Vidya Mandir, Kalyan, Maharashtra.
@@ -28,7 +28,7 @@ function Experience() {
           className="vertical-timeline-element--education"
           date="2013 - 2015"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
-          icon={<SchoolIcon />}
+         
         >
           <h3 className="vertical-timeline-element-title">
             B.K. Birla College Of Arts, Science & Commerce, Kalyan, Maharashtra.
@@ -43,7 +43,7 @@ function Experience() {
           className="vertical-timeline-element--education"
           date="2015 - 2019"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
-          icon={<SchoolIcon />}
+         
         >
           <h3 className="vertical-timeline-element-title">
             M.H Saboo Siddik College Of Engineering, Byculla, Mumbai.
@@ -60,7 +60,7 @@ function Experience() {
           className="vertical-timeline-element--work"
           date="2021 - 2023"
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
-          icon={<WorkIcon />}
+         
         >
           <h3 className="vertical-timeline-element-title">
             Service Head/Analyst - RSA AUTO I-CARE.
@@ -79,7 +79,7 @@ function Experience() {
           className="vertical-timeline-element--work"
           date="2023 - 2024"
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
-          icon={<WorkIcon />}
+      
         >
           <h3 className="vertical-timeline-element-title">
             Sales Analyst - KiCK EV
