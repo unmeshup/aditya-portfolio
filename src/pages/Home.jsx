@@ -1,6 +1,8 @@
 import React from "react";
-
 import "../styles/Home.css";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import EmailIcon from "@mui/icons-material/Email";
+import GitHubIcon from "@mui/icons-material/GitHub";
 
 function Home() {
   return (
@@ -9,7 +11,12 @@ function Home() {
         <h2> Hi, My Name is Aditya</h2>
         <div className="prompt">
           <p>A Data Analyst with a passion for learning and creating.</p>
-         
+          <a href="https://www.linkedin.com/in/adityakanoje" target="_blank" rel="noopener noreferrer">
+          <LinkedInIcon /></a>
+          <a href="mailto:adityakaoje01@gmail.com" target="_blank" rel="noopener noreferrer">
+          <EmailIcon /></a>
+          <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">
+          <GitHubIcon /> </a>
         </div>
       </div>
       <div className="skills">
