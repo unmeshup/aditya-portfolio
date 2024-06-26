@@ -1,7 +1,3 @@
-Here's a brief README file for your GitHub repository:
-
----
-
 # Personal Portfolio Website
 
 A personal portfolio website built with React, CSS, Material-UI, and React Router DOM for dynamic and stylish navigation. Showcase your skills and projects with a modern, responsive design.
